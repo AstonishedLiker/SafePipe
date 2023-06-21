@@ -9,7 +9,7 @@
 	
 	Edited by Liker, module found in the DevConsole Folder of the RobloxGui, CoreGui.
 	
-	(this was intended to be only used in SafePipe! I am not responsible for any damages.)
+	(this was intended to be only used in SafePipe!)
 ]]
 
 local Immutable = require(script.Immutable)
