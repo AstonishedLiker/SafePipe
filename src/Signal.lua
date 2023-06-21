@@ -84,7 +84,7 @@ function SignalFunctions:Once(callback)
 	return Properties
 end
 
-function SignalFunctions:Fire(...) --> Modified for the 'Parallel' Functionality
+function SignalFunctions:Fire(...)
 	--Regular
 	for _, listener in ipairs(self._listeners) do
 		if listener.isConnected then
